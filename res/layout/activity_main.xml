@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.customattr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.customattr.CustomTextView
+        android:id="@+id/customTextView1"
+        custom:name="@string/action_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CustomTextView"
+        custom:nextname="@string/hello_world" />
+
+</RelativeLayout>
